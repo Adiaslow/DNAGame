@@ -33,7 +33,7 @@ public class OrganismManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = new Vector3(Random.Range(0.0f, 0.1f), Random.Range(0.0f, 0.1f), 0);
+        // transform.position = new Vector3(Random.Range(0.0f, 0.1f), Random.Range(0.0f, 0.1f), 0);
     }
 
     private Texture2D GenerateTexture2D(int width, int height, Vector3 pos)
