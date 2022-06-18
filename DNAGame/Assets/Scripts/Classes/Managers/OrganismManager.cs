@@ -11,6 +11,8 @@ public class OrganismManager : MonoBehaviour
     [SerializeField] private int organismWidth;
     [SerializeField] private int organismHeight;
 
+    
+
     void Awake()
     {
         renderer = gameObject.AddComponent<SpriteRenderer>() as SpriteRenderer;
@@ -31,7 +33,7 @@ public class OrganismManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        transform.position = new Vector3(Random.Range(0.0f, 0.1f), Random.Range(0.0f, 0.1f), 0);
     }
 
     private Texture2D GenerateTexture2D(int width, int height, Vector3 pos)

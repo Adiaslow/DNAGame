@@ -25,7 +25,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 300}
   m_MaxSize: {x: 24288, y: 24288}
   vertical: 0
-  controlID: 3825
+  controlID: 5599
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -87,7 +87,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -98,7 +98,7 @@ MonoBehaviour:
       y: 21
       width: 917.5
       height: 258
-    m_Scale: {x: 1, y: 1}
+    m_Scale: {x: 0.47777778, y: 0.47777778}
     m_Translation: {x: 458.75, y: 129}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -106,10 +106,10 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -458.75
-      y: -129
-      width: 917.5
-      height: 258
+      x: -960.17444
+      y: -270
+      width: 1920.3489
+      height: 540
     m_MinimalGUI: 1
   m_defaultScale: 0.47777778
   m_LastWindowPixelSize: {x: 1835, y: 558}
@@ -142,7 +142,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 3884
+  controlID: 5622
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -484,7 +484,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 300}
   m_MaxSize: {x: 8096, y: 24288}
   vertical: 1
-  controlID: 3826
+  controlID: 5600
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -786,7 +786,7 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: 0.03305501, y: -0.004589209, z: 0.11748177}
     speed: 2
-    m_Value: {x: 0.033087693, y: -0.004595151, z: 0.11746189}
+    m_Value: {x: 0.03305501, y: -0.004589209, z: 0.11748177}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -839,7 +839,7 @@ MonoBehaviour:
   m_Size:
     m_Target: 0.05051865
     speed: 2
-    m_Value: 0.05048079
+    m_Value: 0.05051865
   m_Ortho:
     m_Target: 1
     speed: 2
