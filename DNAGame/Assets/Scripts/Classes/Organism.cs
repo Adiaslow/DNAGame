@@ -4,14 +4,13 @@ using UnityEngine;
 
 public class Organism : MonoBehaviour
 {
-    [SerializeField] public int age = 0;
-    [SerializeField] public int lifeSpan = 100;
-
-    
-    [SerializeField] public int minMaturity = 18;
-    [SerializeField] public int maxMaturity = 60;
-    [SerializeField] public int peakMaturity = 40;
-    bool isMature = false;
+    [SerializeField] public bool _isAlive { get; private set; }
+    [SerializeField] public int _age { get; private set; }
+    [SerializeField] public int _lifeSpan { get; private set; }
+    [SerializeField] public int _minMaturity { get; private set; }
+    [SerializeField] public int _maxMaturity { get; private set; }
+    [SerializeField] public int _peakMaturity { get; private set; }
+    [SerializeField] public bool _isMature { get; private set; }
 
     float stat1 = 0;
     float stat2 = 0;
@@ -20,29 +19,36 @@ public class Organism : MonoBehaviour
     float stat5 = 0;
     float stat6 = 0;
 
-    public bool isAlive { get; private set; } = true;
 
-    
+    public Organism()
+    {
+        this._isAlive = true;
+        this._age = 0;
+        this._isMature = false;
+    }
 
+    ~Organism()
+    {
+
+    }
 
     public void SetIsAlive(bool isAlive)
     {
-        this.isAlive = isAlive;
+        this._isAlive = isAlive;
     }
 
-
-
-    // Start is called before the first frame update
-    void Start()
+    public void Kill()
     {
-        
+        Destroy(this);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void SetAge(int age)
     {
-        
+        this._age = age;
     }
 
-    
+    public void SetLifeSpan(int lifeSpan)
+    {
+        this._lifeSpan = lifeSpan;
+    }
 }

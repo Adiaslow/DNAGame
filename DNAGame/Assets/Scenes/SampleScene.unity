@@ -257,8 +257,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53a8006fcb19f48eda6d434100bea987, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  organismWidth: 8
-  organismHeight: 8
+  organismPrefab: {fileID: 1648318665439987332, guid: e2e5935d5497e42c5a28d3ddf6b30513, type: 3}
+  organismSizeInPixels: {x: 8, y: 8}
+  scale: {x: 10, y: 10, z: 10}
+  organismCount: 10
 --- !u!4 &920708992
 Transform:
   m_ObjectHideFlags: 0
