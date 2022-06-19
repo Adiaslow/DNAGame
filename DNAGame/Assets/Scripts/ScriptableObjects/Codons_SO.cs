@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Codons_SO
+public class Codons_SO : ScriptableObject
 {
     int phe = 0;
     int leu = 15;

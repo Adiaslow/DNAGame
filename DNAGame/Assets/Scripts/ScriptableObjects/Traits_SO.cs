@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Traits_SO
+public class Traits_SO : ScriptableObject
 {
     int yellow = 50;
 
